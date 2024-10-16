@@ -39,24 +39,6 @@ This project implements a multi-modal image search application using CLIP (Contr
 
 4. Set up a MyScale account and create a cluster. Update the connection details in the script.
 
-## Usage
-
-1. Run the main script to process the dataset and store embeddings in MyScale:
-   ```
-   python process_dataset.py
-   ```
-
-2. Use the search functionality:
-   ```
-   python search_images.py --text "A man standing on the beach" --image_url "https://example.com/image.jpg"
-   ```
-
-## Project Structure
-
-- `process_dataset.py`: Script to process the Unsplash dataset and store embeddings in MyScale
-- `search_images.py`: Script to perform multi-modal image search
-- `utils.py`: Utility functions for image processing and embedding generation
-
 ## Future Improvements
 
 - Implement a web interface for easier user interaction
